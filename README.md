@@ -1,0 +1,17 @@
+# CONTRAST ATLAS: Budgeted Local Contrast Preservation in Real Camera Noise
+
+Version **v1.0.0** of the participant-safe CONTRAST ATLAS dataset. The release asset `participant_dataset.zip` is 603,637,107 bytes with SHA-256 `a2b8008b8281188cce9ec1fa14062c70ad916f308ba2fb544b7df233e64235b3`. The matching `public_release_manifest.json` lists all 2,602 archive members, byte lengths, and SHA-256 hashes. Run `python verify_release.py participant_dataset.zip` after downloading.
+
+CONTRAST ATLAS derives from the [Smartphone Image Denoising Dataset (SIDD)](https://abdokamel.github.io/sidd/) Small sRGB paired noisy/reference captures by Abdelrahman Abdelhamed, Stephen Lin, and Michael S. Brown. The SIDD publisher states the dataset is under the MIT License. The original photographs and reference estimates remain SIDD material. This release adds a scene-level split, transformed tile crops, measured treatment-gain labels, and a budgeted contrast-preservation task. See `SOURCE_LICENSE_NOTICE.md` for attribution and transformation details.
+
+## Release contents
+
+`participant_dataset.zip` contains 1,440 `noisy/<tile_id>.png` tiles, 1,152 `train_reference/<tile_id>.png` tiles, `train_rewards.csv` (1,152 rows), `test_tiles.csv` (288 rows), `sample_submission.csv` (288 rows), `DATASET_CARD.md`, `SOURCE_LICENSE_NOTICE.md`, `title.txt`, `PROBLEM_DESCRIPTION.md`, `RUBRICS.md`, `challenge_core.py`, and `requirements.txt`. Images are 384-by-384, 8-bit RGB PNGs. The training CSV records zero-based tile grid coordinates, three measured treatment gains in dimensionless contrast-loss units, and a budget-optimal action. The test CSV contains IDs and coordinates only. The sample CSV contains zero forecasts and actions. `DATASET_CARD.md` specifies column schemas, label interpretation, limitations, and the split. The ZIP member hashes in `public_release_manifest.json` verify this exact version.
+
+Twenty-four paired captures from eight original SIDD scenes provide training tiles. Six captures from two entirely held-out scenes provide evaluation noisy tiles. Evaluation reference tiles, measured test gains, answer actions, source-to-opaque-ID mapping, organizer provenance records, and the organizer raw upload are **not** included in this public release. Publishing them would reveal the private evaluation targets. The challenge platform supplies the prepared train/test/sample files to participants; no network download from this page is required to run a solver on the platform. This page is the public provenance and reproducibility mirror for the participant dataset. The separate organizer raw ZIP is ingested privately by the platform's `prepare.py`.
+
+## Known limitations
+
+This subset covers ten original scenes and only two held-out scenes. SIDD reference images are estimates derived from repeated captures. Treatment costs are abstract contest credits rather than measured energy or runtime. The contrast loss is a specified operational metric, not a human perception study. Since upstream SIDD images are public, visual source lookup is a possible shortcut despite transformed crops and opaque IDs. No official novelty or difficulty rating is claimed.
+
+**Source citation:** Abdelhamed, A., Lin, S., and Brown, M. S. (2018). *A High-Quality Denoising Dataset for Smartphone Cameras*. CVPR.
