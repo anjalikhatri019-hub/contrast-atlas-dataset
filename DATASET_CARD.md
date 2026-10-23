@@ -14,7 +14,7 @@ CONTRAST ATLAS is a derived benchmark from the Smartphone Image Denoising Datase
 - `DATASET_CARD.md`: this card.
 - `SOURCE_LICENSE_NOTICE.md`: source attribution, license scope, and transformation notice.
 
-The private prepared files are `test_answers.csv`, `source_map.json`, and `SOURCE_LICENSE_EVIDENCE.md`. The private answer CSV has exactly the same ordered header as the sample. Its three gain columns contain actual measured reductions and `action` contains the measured-gain budget oracle. `source_map.json` connects opaque IDs to source instances for organizer auditing. The organizer raw input contains all 30 noisy/reference source pairs and a provenance manifest; that raw input is not participant data.
+The private prepared files are `answers.csv`, `source_map.json`, and `SOURCE_LICENSE_EVIDENCE.md`. The private answer CSV has exactly the same ordered header as the sample. Its three gain columns contain actual measured reductions and `action` contains the measured-gain budget oracle. `source_map.json` connects opaque IDs to source instances for organizer auditing. The organizer raw input contains all 30 noisy/reference source pairs and a provenance manifest; that raw input is not participant data.
 
 ## Labels, budget, and score
 

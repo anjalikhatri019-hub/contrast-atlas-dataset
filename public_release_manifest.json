@@ -1,13 +1,13 @@
 {
   "dataset": "CONTRAST ATLAS: Budgeted Local Contrast Preservation in Real Camera Noise",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "license_spdx": "MIT",
   "upstream_url": "https://abdokamel.github.io/sidd/",
   "license_file": "LICENSE",
   "archive": {
     "name": "participant_dataset.zip",
-    "bytes": 603637107,
-    "sha256": "a2b8008b8281188cce9ec1fa14062c70ad916f308ba2fb544b7df233e64235b3"
+    "bytes": 603638016,
+    "sha256": "de97d7d75ab3af6730ca587b62a91acf56536bf20164aee702a7fd872a8e70ee"
   },
   "member_count": 2602,
   "members": [
@@ -13003,8 +13003,8 @@
     },
     {
       "path": "PROBLEM_DESCRIPTION.md",
-      "bytes": 4330,
-      "sha256": "be3b45361fcf83c896f78dd83d209bc6d5eb4d5fd2c839d8294a3f74286c361f"
+      "bytes": 5239,
+      "sha256": "cef056be49defd9cb0e8e11b6f0e829ffed3e88fd4a7a422857a2ece73fa9734"
     },
     {
       "path": "RUBRICS.md",
