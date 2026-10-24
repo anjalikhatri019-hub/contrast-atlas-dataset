@@ -1,20 +1,20 @@
 {
   "dataset": "CONTRAST ATLAS: Budgeted Local Contrast Preservation in Real Camera Noise",
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "license_spdx": "MIT",
   "upstream_url": "https://abdokamel.github.io/sidd/",
   "license_file": "LICENSE",
   "archive": {
     "name": "participant_dataset.zip",
-    "bytes": 603638011,
-    "sha256": "3b3b925884e017034bb23f6749e103c5135705d0b9a006bbb218b859a0c7430b"
+    "bytes": 603655847,
+    "sha256": "2a0b8cc65404a69985b0d4a52769b4a2a98e181bc08792191065a1a37eb177c7"
   },
   "member_count": 2602,
   "members": [
     {
       "path": "DATASET_CARD.md",
-      "bytes": 4769,
-      "sha256": "1484e9347f189041243ed266d1b83e5d95ac57ba35f216adaa649c68570a2c4c"
+      "bytes": 6044,
+      "sha256": "43d09645c2c223d4238fe115b95a8abc9841ccb7ef29cdae56aaa237ce66d546"
     },
     {
       "path": "noisy/ca_1a1f303048afc7213f29_00_00.png",
@@ -7218,8 +7218,8 @@
     },
     {
       "path": "sample_submission.csv",
-      "bytes": 17901,
-      "sha256": "a9244500fefaf0a99cf3ae00ee698621f7511a4d454bb63756699b861a9da813"
+      "bytes": 34923,
+      "sha256": "3f4d0da9306403c007072ceb564446a24af1123dc2d6067031d2fcdc52483164"
     },
     {
       "path": "SOURCE_LICENSE_NOTICE.md",
@@ -12993,8 +12993,8 @@
     },
     {
       "path": "train_rewards.csv",
-      "bytes": 145910,
-      "sha256": "35acc7f9659c0141b69e51676ace0e6f5417a2203d99e65ab56ca186f51dfdee"
+      "bytes": 143599,
+      "sha256": "b24624467c5ff6121d01b5e379a229c6c1bc301da904be73f370a5a432ad7700"
     },
     {
       "path": "title.txt",
@@ -13003,13 +13003,13 @@
     },
     {
       "path": "PROBLEM_DESCRIPTION.md",
-      "bytes": 5239,
-      "sha256": "cef056be49defd9cb0e8e11b6f0e829ffed3e88fd4a7a422857a2ece73fa9734"
+      "bytes": 6176,
+      "sha256": "97b971c8e8381eba6ddcb5b35cfd85a5fa6ba2e7bdba4948ab58dbc8a4c0dcec"
     },
     {
       "path": "RUBRICS.md",
-      "bytes": 942,
-      "sha256": "32a6ac6fbb718a024cd764a41994352d334620a499a2613fbb318133bcbf2763"
+      "bytes": 1855,
+      "sha256": "7b870dff56f8b07dac7daf9a7f02f3ca6ce5f591ea89c23e8deb56f6c540bc7a"
     },
     {
       "path": "challenge_core.py",
